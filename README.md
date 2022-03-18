@@ -2,5 +2,3 @@
 
 ## Project setup
 ```
-npm install
-```
