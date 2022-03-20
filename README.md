@@ -24,5 +24,6 @@ git pull
 ```
 git add .
 git commit -m "你的说明"
+git pull
 git push origin main
 ```
