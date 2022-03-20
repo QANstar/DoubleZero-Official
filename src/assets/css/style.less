@@ -1,0 +1,70 @@
+/* ------------------整体------------------ */
+body,html{
+    margin: 0;
+}
+/* ------------------超链接------------------ */
+body {
+    a{
+        text-decoration: none;
+        color: #000000;
+        &:hover{
+            color: #00AEEC;
+        }
+    }
+    
+}
+/* ------------------动画------------------ */
+* {
+    transition: 0.1s;
+}
+
+@-webkit-keyframes shakeAnmi
+
+/* 上下抖动动画 */
+    {
+    0% {
+        -webkit-transform: translateY(-2px);
+    }
+
+    25% {
+        -webkit-transform: translateY(-5px);
+    }
+
+    50% {
+        -webkit-transform: translateY(-2px);
+    }
+
+    100% {
+        -webkit-transform: translateY(0px);
+    }
+}
+
+@keyframes rotating
+
+/* 旋转动画 */
+    {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(1turn);
+    }
+}
+
+/* ------------------滑动条------------------ */
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #b4c7d0;
+    border: 3px solid transparent;
+    background-clip: padding-box;
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-track-piece {
+    background: 0 0;
+}
